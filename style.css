@@ -1,0 +1,302 @@
+
+header .navbar { 
+    margin-left: 30%;     
+  }
+  
+  header .navbar a {
+    margin-left: 5%;
+    text-decoration: none;
+  }
+  
+  header .navbar span {
+    color: black;
+  }
+  
+  .cover {
+    margin-left: 50%;
+    height: 50vh; 
+    width: 50%; 
+  }
+  
+  .text {
+    margin-top: -20em;
+    color: white;
+    margin-left: 30%;
+  }
+  
+  .image {
+    background-color: blueviolet;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+  .sec2 {
+    margin-top: 18%;
+  }
+  
+  button {
+    background-color: palevioletred;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    color: white;
+    border-color: palevioletred;
+  }
+  
+  .sec2 p {
+    margin-left: 40%;
+  }
+  
+  .sec2 h3 {
+    margin-left: 40%;
+    text-decoration: underline;
+    color: gray;
+  }
+  
+  .sec2 h4 {
+    margin-left: 50%;
+    margin-top: -2.3em;
+    color: gray;
+  }
+  
+  .pics {
+    display: flex;
+    gap: 5%;
+  }
+  
+  .pics p {
+    color: gray;
+  }
+  
+  .pics .pic3 {
+    height: 55%;
+    width: 100%;
+  }
+  
+  #viewbtn {
+    margin-left: 42%;
+  }
+  
+  #running {
+    width: 450px;
+    height: 10%;
+  }
+  
+  .two {
+    margin-left: 5%;
+    margin-top: -49em; 
+  }
+  
+  #heels {
+    padding-bottom: 40px;
+  }
+  
+  .two #heels p {
+    margin-top: -10em;
+    color: white;
+    padding-bottom: 20px;
+  }
+  
+  .gt {
+    margin-top: -12em;
+  }
+  
+  .two #heels2 p {
+    margin-top: -10em;
+    color: white;
+  } 
+  
+  .two h2 {
+    color: white;
+  }
+  
+  .two #heels #shoe1 {
+    height: 50%;
+    width: 100%;
+  }
+  
+  .overral {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); 
+  }
+  
+  .two #heels2 #shoe2 {
+    height: 50%;
+    width: 100%; 
+  }
+  
+  .below {
+    text-align: center;
+  }
+  
+  .below h3, h5 {
+    color: gray;
+  }
+  
+  #woman {
+    height: 70%;
+    width: 100%;
+  }
+  
+  #master {
+    height: 20px;
+  }
+  
+  #amazon {
+    height: 40px;
+  }
+  
+  #paypal {
+    height: 40px;
+  }
+  
+  footer {
+    display: flex;
+    gap: 90px;
+    color: gray;
+  }
+
+
+  /* For screens smaller than 768px */
+@media (max-width: 767px) {
+    header .navbar {
+      margin-left: 0;
+    }
+    header .navbar a {
+      margin-left: 0;
+      display: block;
+      text-align: center;
+    }
+    .cover {
+      margin-left: 10%;
+      width: 80%;
+    }
+    .text {
+      margin-left: 10%;
+    }
+    .sec2 p, .sec2 h3, .sec2 h4 {
+      margin-left: 10%;
+    }
+    .pics {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #viewbtn {
+      margin-left: 33%;
+    }
+    .two {
+      margin-left: 0;
+      margin-top: 0;
+    }
+    .two #heels p, .gt {
+      margin-top: 0;
+    }
+    .overral {
+      grid-template-columns: 1fr;
+    }
+    .below {
+      text-align: center;
+      margin-top: 20px;
+    }
+    footer {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+  /* For screens larger than 768px */
+  @media (min-width: 768px) {
+    header .navbar {
+      margin-left: 30%;
+    }
+    header .navbar a {
+      margin-left: 5%;
+      display: inline-block;
+      text-align: left;
+    }
+    .cover {
+      margin-left: 50%;
+      height: 50%;
+      width: 50%;
+    }
+    .text {
+      margin-top: -20em;
+      color: white;
+      margin-left: 30%;
+    }
+    .sec2 p, .sec2 h3, .sec2 h4 {
+      margin-left: 40%;
+    }
+    #viewbtn {
+      margin-left: 42%;
+    }
+    .two {
+      margin-left: 5%;
+      margin-top: -49em; 
+    }
+    .two #heels p {
+      margin-top: -10em;
+      color: white;
+      padding-bottom: 20px;
+    }
+    .gt {
+      margin-top: -12em;
+    }
+    .two #heels2 p {
+      margin-top: -10em;
+      color: white;
+    } 
+    .two h2 {
+      color: white;
+    }
+    .two #heels #shoe1, .two #heels2 #shoe2 {
+      height: 50%;
+      width: 100%;
+    }
+    .overral {
+      grid-template-columns: repeat(2,2fr); 
+    }
+    .below {
+      text-align: center;
+    }
+    footer {
+      display: flex;
+      gap: 90px;
+      color: gray;
+    }
+  }
+/* Media query for desktops */
+@media screen and (min-width: 1440px) {
+    header .navbar {
+      margin-left: 15%;     
+    }
+    header .navbar a {
+      margin-left: 1%;
+    }
+    header .navbar span {
+      color: black;
+    }
+    .cover {
+      margin-left: 20%;
+      height: 70%;
+      width: 70%;
+    }
+    .text {
+      margin-top: -12em;
+      margin-left: 15%;
+    }
+    .image {
+      background-color: blue
+  
+  
+    }
+}
+  
+  
+  
+  
+  
+  
+  
+  
